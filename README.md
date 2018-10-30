@@ -16,13 +16,15 @@
   
   - 翻译规范
   
-  请使用标准Markdown语法进行翻译，这里提供了一个例子：池化
+  请使用标准rst语法进行翻译，这里提供了一个例子：池化
   翻译时请严格遵照[中文技术文档写作规范](https://github.com/ruanyf/document-style-guide)，部分深度学习专业词汇应保留英文说法
   在翻译时，如发现英文版API reference不易理解，也可以参考[python代码](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid) 来帮助理解
   
   - 翻译预览（请@tink2123 补充）
   
   - pr提交 （请@tink2123 补充）
+  
+  添加reviewer：请在[这里](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid)blame去查看每个api的原作者，并在pr的comment中@原作者的github名字
   
 ## FAQ
 
