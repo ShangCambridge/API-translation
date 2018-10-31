@@ -16,7 +16,7 @@
   
   - 翻译规范
   
-  请使用标准rst语法进行翻译，这里提供了一个例子： [array_read]()
+  请使用标准rst语法进行翻译，这里提供了一个例子： [array_read](https://github.com/shanyi15/API-translation/blob/master/cn_array_read.rst)
   翻译时请严格遵照[中文技术文档写作规范](https://github.com/ruanyf/document-style-guide)，部分深度学习专业词汇应保留英文说法
   在翻译时，如发现英文版API reference不易理解，也可以参考[python代码](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid) 来帮助理解
   
