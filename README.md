@@ -16,15 +16,73 @@
   
   - 翻译规范
   
-  请使用标准rst语法进行翻译，这里提供了一个例子：池化
+  请使用标准rst语法进行翻译，这里提供了一个例子： [array_read]()
   翻译时请严格遵照[中文技术文档写作规范](https://github.com/ruanyf/document-style-guide)，部分深度学习专业词汇应保留英文说法
   在翻译时，如发现英文版API reference不易理解，也可以参考[python代码](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid) 来帮助理解
   
-  - 翻译预览（请@tink2123 补充）
+  - pr提交 
+  提交pr有两种方式：使用git工具、使用网页，大家可以根据自己对git工具的掌握程度自行选择，下面对这两种方式做一个简要介绍。
   
-  - pr提交 （请@tink2123 补充）
+  **使用git工具**
+  1. 首先请 fork FluidDoc仓库 并在本地 clone 你fork的FluidDoc
+  
+  ```bash
+  git clone https://github.com/<username>/FluidDoc.git
+  ```
+  <username>是你的git用户名
+  2. 关联远程仓库（原FluidDoc）
+  
+  ```bash
+  git remote add upstream https://github.com/PaddlePaddle/FluidDoc.git
+  ```
+  完成后在终端输入 `git remote -v` 应该可以看到下列状态：
+  ```
+  $ git remote -v
+  origin  https://github.com/xxxxx/FluidDoc.git (fetch)
+  origin  https://github.com/xxxxx/FluidDoc.git (push)
+  upstream        git@github.com:PaddlePaddle/FluidDoc.git (fetch)
+  upstream        git@github.com:PaddlePaddle/FluidDoc.git (push)
+  ```
+  
+  3. 创建新分支
+  ```bash
+  git checkout -b translation
+  ```
+  4. 每次修改前请确定当前分支与远端最新状态保持同步
+  ```bash
+  git fetch
+  git pull upstream develop
+  ```
+  5. 在当前分支进行您的操作
+  6. 完成后提交修改
+  ```bash
+  //查看当前修改状态
+  git status
+  
+  //将需要的修改添加到暂缓区
+  git add <file_name>
+  
+  //提交commit
+  git commit -m "wirte your commit message"
+  
+  //上传到远端
+  git push origin yourbranch:newbranch
+  ```
+  7. 上传成功后进入[FluidDoc](https://github.com/PaddlePaddle/FluidDoc),可以在首页看到一个提交PR的提醒：
+  <img src="https://images-cdn.shimo.im/GuNRK4riwgkoCFSR/image.image/png!thumbnail">
+  确认没问题，可以点create pull request了，这样就建立了一个pr，然后按照下图步骤填写相关信息
+  <img src="https://images-cdn.shimo.im/ac0xbYdr0CoajGzx/image.image/png!thumbnail">
+  
+  8. 提交成功，请您将pr的链接告知我们。
+  后续如果有review意见，您将会通过在github里留的邮箱得到反馈，请根据review意见及时提交您的修改稿
+  
+  
+  **使用网页提交**
+  请参考这个[说明](https://shimo.im/docs/5MRz2RFyUYESBEWJ/ )
   
   添加reviewer：请在[这里](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid)blame去查看每个api的原作者，并在pr的comment中@原作者的github名字
+  
+  
   
 ## FAQ
 
