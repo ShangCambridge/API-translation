@@ -17,6 +17,9 @@
   - 翻译规范
   
   请使用标准rst语法进行翻译，这里提供了一个例子： [array_read](https://github.com/shanyi15/API-translation/blob/master/cn_array_read.rst)
+
+  在官网预览效果如下：
+  ![](img/preview_for_array_read.png)
   
   翻译时请严格遵照[中文技术文档写作规范](https://github.com/ruanyf/document-style-guide)，部分深度学习专业词汇应保留英文说法
   
