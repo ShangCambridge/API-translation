@@ -69,9 +69,9 @@
   git push origin yourbranch:newbranch
   ```
   7. 上传成功后进入[FluidDoc](https://github.com/PaddlePaddle/FluidDoc),可以在首页看到一个提交PR的提醒：
-  <img src="https://images-cdn.shimo.im/GuNRK4riwgkoCFSR/image.image/png!thumbnail">
-  确认没问题，可以点create pull request了，这样就建立了一个pr，然后按照下图步骤填写相关信息
-  <img src="https://images-cdn.shimo.im/ac0xbYdr0CoajGzx/image.image/png!thumbnail">
+  <img src="https://images-cdn.shimo.im/qGaQdaUskAAfGshX/image.png!thumbnail">
+  确认没问题，可以回到页面顶端，补充PR名与说明信息，点击create pull request。这样就建立了一个pr：
+  <img src="https://images-cdn.shimo.im/eMZlvciq06ktpk6h/image.png!thumbnail">
   
   8. 提交成功，请您将pr的链接告知我们。
   后续如果有review意见，您将会通过在github里留的邮箱得到反馈，请根据review意见及时提交您的修改稿
