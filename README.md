@@ -21,7 +21,7 @@
   在翻译时，如发现英文版API reference不易理解，也可以参考[python代码](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid) 来帮助理解
   
   - pr提交 
-  提交pr有两种方式：使用git工具、使用网页，大家可以根据自己对git工具的掌握程度自行选择，下面对这两种方式做一个简要介绍。
+  提交pr有两种方式：1)使用git工具、2)使用网页，大家可以根据自己对git工具的掌握程度自行选择，下面对这两种方式做一个简要介绍。
   
   **使用git工具**
   1. 首先请 fork FluidDoc仓库 并在本地 clone 你fork的FluidDoc
