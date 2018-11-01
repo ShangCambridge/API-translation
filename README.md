@@ -32,7 +32,8 @@
   ```bash
   git clone https://github.com/<username>/FluidDoc.git
   ```
-  <username>是你的git用户名
+  `<username>`是你的git用户名
+  
   2. 关联远程仓库（原FluidDoc）
   
   ```bash
@@ -57,6 +58,7 @@
   git pull upstream develop
   ```
   5. 在当前分支进行您的操作
+  
   6. 完成后提交修改
   ```bash
   //查看当前修改状态
