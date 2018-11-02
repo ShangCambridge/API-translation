@@ -25,6 +25,10 @@
    中文翻译稿的源文件也需要按照类似的方式命名，例如中文版layers，其在Fluiddoc/doc/fluid/api下的文件名应为：`layers_cn.rst`
    
    请按照大类（请参考Fluiddoc/doc/fluid/api）下面英文版的分类方式，来创建对应的中文版文档
+   
+  - 文件提交到的分支
+  
+    由于此次翻译工作是多人并行的，为了避免多人同时修改同一个文件造成冲突，为大家创建了不同的分支，请提交到各自的分支，具体请以通知为准
 
   - 明确格式要求
   
@@ -127,7 +131,7 @@
  
 ## FAQ
 
-### 觉得英文版的API文档写得不够完善，我应该怎样做？
+### 1. 觉得英文版的API文档写得不够完善，我应该怎样做？
   
   本项目的目标在于英译汉API Reference，如果觉得英文版文档写得不够完善，影响您的翻译，请
   
@@ -136,6 +140,3 @@
   第二步：将觉得有问题的地方，[提Issue在Paddle repo](https://github.com/PaddlePaddle/Paddle/issues/new)
   
   更多地，如果想修改英文版API Reference，为Paddle贡献代码，请在Paddle Repo中提交Pull Request
-
-
- 
