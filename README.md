@@ -18,6 +18,10 @@
   
 ## 翻译步骤
 
+  - 写在前面
+  
+  为了节约reviewer的成本，请大家在自己本地修改好以后，几乎定稿以后再提交pr
+  
   - 文件的命名和提交位置
   
    在官网英文版文档中，左侧导航栏显示`fluid`,`fluid.layers`等，每一行代表一种分类，对应[Github 源文件](https://github.com/PaddlePaddle/FluidDoc/tree/release/1.0/doc/fluid/api)的一个文件，例如`fluid.layers`对应`layers.rst`
