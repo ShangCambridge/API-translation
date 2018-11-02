@@ -43,7 +43,8 @@
    
    **注意**
    
-   在每一个api翻译前，务必先为此api添加关键字，格式为 `.. _cn_api_fluid_layers_array_read:` , 英文名前有一个 `_` 结尾有一个 `:`    
+   在每一个api中文翻译前，务必先在顶端为此api添加关键字，格式为 `.. _cn_api_fluid_layers_array_read:` , 英文名前有一个 `_` 结尾有一个 `:`,如：
+   ![](img/ref.png) 
   
   - 如何提交
   
