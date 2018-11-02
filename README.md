@@ -28,8 +28,15 @@
    
   - 文件提交到的分支
   
-    由于此次翻译工作是多人并行的，为了避免多人同时修改同一个文件造成冲突，为大家创建了不同的分支，请提交到各自的分支，具体请以通知为准
+    由于此次翻译工作是多人并行的，为了避免多人同时修改同一个文件造成冲突，为大家创建了不同的分支，请按照Github名字找到自己的分支
+    
+    [Mddct](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-dh)
+    [ShangCambridge](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-xx)
+    [HongyingG](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-hy)
+    [haowang101779990](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-wh)
 
+    **提交pr时，请务必提交到自己的分支，谢谢！**
+    
   - 明确格式要求
   
   请使用标准rst语法进行翻译，这里以layers中的一个api为例： [array_read](https://github.com/shanyi15/API-translation/blob/master/layers_cn.rst)
