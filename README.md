@@ -43,7 +43,7 @@
    
    关键字的格式为 `.. _cn_api_fluid_layers_array_read:`，写法为：
    
-   “cn”+“api”+“api的路径”，请注意英文名前有一个 `_` 结尾有一个 `:`，这里以layers中的array_read为例：
+   “cn”+“api所属类别”+“api的路径”，请注意英文名前有一个 `_` 结尾有一个 `:`，这里以layers中的array_read为例：
    
    ![](img/ref.png) 
   
