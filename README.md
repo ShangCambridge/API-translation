@@ -29,7 +29,7 @@
   
   在翻译时，如发现英文版API reference不易理解，请参考[python源代码](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid) 来帮助理解
   
-    **注意**
+**注意！！**
    
    为了保证从其他文档可以正确跳转到某个API Reference（效果请参考[这里](http://paddlepaddle.org/documentation/api/zh/1.1/api_guides/low_level/layers/detection.html)从API Guide文档到API Reference文档的跳转），在每一个api中文翻译前，请首先为此api添加关键字。
    
