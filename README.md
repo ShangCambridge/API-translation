@@ -40,7 +40,11 @@
    中文翻译稿的源文件也需要按照类似的方式命名，例如中文版layers，其在Fluiddoc/doc/fluid/api下的文件名应为：`layers_cn.rst`
    
    请按照大类（请参考Fluiddoc/doc/fluid/api）下面英文版的分类方式，来创建对应的中文版文档
-    
+   
+   **注意**
+   
+   在每一个api翻译前，务必先为此api添加关键字，格式为 `.. _cn_api_fluid_layers_array_read:` , 英文名前有一个 `_` 结尾有一个 `:`    
+  
   - 如何提交
   
     PaddlePaddle文档使用Github中的[Fluiddoc](https://github.com/PaddlePaddle/FluidDoc)来统一管理，您需要了解git的基本操作，并通过Pull Request的方式提交您的翻译稿。提交Pull Request可通过git工具或网页两种方法提交，下面分别简单介绍：
