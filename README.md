@@ -103,7 +103,7 @@
   4. 每次修改前请确定当前分支与远端最新状态保持同步
   ```bash
   git fetch
-  git pull upstream develop
+  git pull upstream Translation-wh/hy/dh/hy(选择自己的分支）
   ```
   5. 在当前分支进行您的操作
   
