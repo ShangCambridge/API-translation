@@ -119,15 +119,11 @@
 
   - 背景
   
-  请在提交pr时添加Reviewer。由于API文档正确性非常重要，因此每一篇中文翻译稿都需要API代码作者Review通过后才可以Merge
+  请在提交pr时添加Reviewer，由于API文档正确性非常重要，因此每一篇中文翻译稿都需要API代码作者Review通过后才可以Merge
   
-  - 如何找到原作者
+  - 我的PR应该添加谁为Reviewer？我应该怎样做？
   
-  请在[这里](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid)blame去查看每个api的原作者
-  
-  - 如何添加原作者为您提交pr的reviewer
-  
-   请在pr的comment中@原作者的github名字
+   请参考[这篇文档](https://shimo.im/docs/qutwVzPGy3s8XQAD/)
  
 ## FAQ
 
