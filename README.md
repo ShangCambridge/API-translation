@@ -18,9 +18,17 @@
   
 ## 翻译步骤
 
+  - 文件的命名和提交位置
+  
+   在官网英文版文档中，左侧导航栏显示`fluid`,`fluid.layers`等，每一行代表一种分类，对应[Github 源文件](https://github.com/PaddlePaddle/FluidDoc/tree/release/1.0/doc/fluid/api)的一个文件，例如`fluid.layers`对应`layers.rst`
+   
+   中文翻译稿的源文件也需要按照类似的方式命名，例如中文版layers，其在Fluiddoc/doc/fluid/api下的文件名应为：`layers_cn.rst`
+   
+   请按照大类（请参考Fluiddoc/doc/fluid/api）下面英文版的分类方式，来创建对应的中文版文档
+
   - 明确格式要求
   
-  请使用标准rst语法进行翻译，这里提供了一个例子： [array_read](https://github.com/shanyi15/API-translation/blob/master/layers_cn.rst)
+  请使用标准rst语法进行翻译，这里以layers中的一个api为例： [array_read](https://github.com/shanyi15/API-translation/blob/master/layers_cn.rst)
 
   上述rst文档在官网渲染后显示效果如下：
   ![](img/preview_for_array_read.png)
@@ -35,21 +43,13 @@
    
    关键字的格式为 `.. _cn_api_fluid_layers_array_read:`，写法为：
    
-   “cn”+“api所属类别”+“api名”，请注意英文名前有一个 `_` 结尾有一个 `:`，这里以layers中的array_read为例：
+   “cn”+“api所属类别”+“api的名字”，请注意英文名前有一个 `_` 结尾有一个 `:`，这里以layers中的array_read为例：
    
    ![](img/ref.png) 
   
   - 需要翻译的API
   
     请根据拿到的Excel中所列的API名称，在[API Reference](http://paddlepaddle.org/documentation/api/zh/1.0/fluid.html)中查看
-    
-  - 提交位置
-  
-   在官网英文版文档中，左侧导航栏显示`fluid`,`fluid.layers`等，每一行代表一种分类，对应[Github 源文件](https://github.com/PaddlePaddle/FluidDoc/tree/release/1.0/doc/fluid/api)的一个文件，例如`fluid.layers`对应`layers.rst`
-   
-   中文翻译稿的源文件也需要按照类似的方式命名，例如中文版layers，其在Fluiddoc/doc/fluid/api下的文件名应为：`layers_cn.rst`
-   
-   请按照大类（请参考Fluiddoc/doc/fluid/api）下面英文版的分类方式，来创建对应的中文版文档
   
   - 如何提交
   
