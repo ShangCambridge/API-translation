@@ -30,13 +30,13 @@
   
     由于此次翻译工作是多人并行的，为了避免多人同时修改同一个文件造成冲突，为大家创建了不同的分支，请按照Github名字找到自己的分支
     
-    [Mddct](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-dh)
     
-    [ShangCambridge](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-xx)
-    
-    [HongyingG](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-hy)
-    
-    [haowang101779990](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-wh)
+    |Github名字|分支名字|分支链接|
+    | ----- | ----- | ----- |
+    |[Mddct](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-dh)|Translation-dh| https://github.com/PaddlePaddle/FluidDoc/tree/Translation-dh |
+    |[ShangCambridge](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-xx)|Translation-xx| https://github.com/PaddlePaddle/FluidDoc/tree/Translation-xx |
+    | [HongyingG](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-hy)| Translation-hy |https://github.com/PaddlePaddle/FluidDoc/tree/Translation-hy |
+    | [haowang101779990](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-wh)|Translation-wh|https://github.com/PaddlePaddle/FluidDoc/tree/Translation-wh |
 
     **提交pr时，请务必提交到自己的分支，谢谢！**
     
@@ -119,6 +119,9 @@
   ```
   7. 上传成功后进入[FluidDoc](https://github.com/PaddlePaddle/FluidDoc),可以在首页看到一个提交PR的提醒：
   <img src="https://images-cdn.shimo.im/qGaQdaUskAAfGshX/image.png!thumbnail">
+  
+  **请确认提交到自己的分支上！！！**
+  
   确认没问题，可以回到页面顶端，补充PR名与说明信息，点击create pull request。这样就建立了一个pr：
   <img src="https://images-cdn.shimo.im/eMZlvciq06ktpk6h/image.png!thumbnail">
   
