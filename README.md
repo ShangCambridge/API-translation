@@ -37,10 +37,10 @@
     
     |Github名字|分支名字|分支链接|
     | ----- | ----- | ----- |
-    |[Mddct](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-dh)|Translation-dh| https://github.com/PaddlePaddle/FluidDoc/tree/Translation-dh |
-    |[ShangCambridge](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-xx)|Translation-xx| https://github.com/PaddlePaddle/FluidDoc/tree/Translation-xx |
-    | [HongyingG](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-hy)| Translation-hy |https://github.com/PaddlePaddle/FluidDoc/tree/Translation-hy |
-    | [haowang101779990](https://github.com/PaddlePaddle/FluidDoc/tree/Translation-wh)|Translation-wh|https://github.com/PaddlePaddle/FluidDoc/tree/Translation-wh |
+    |Mddct|Translation-dh| https://github.com/PaddlePaddle/FluidDoc/tree/Translation-dh |
+    |ShangCambridge|Translation-xx| https://github.com/PaddlePaddle/FluidDoc/tree/Translation-xx |
+    | HongyingG| Translation-hy |https://github.com/PaddlePaddle/FluidDoc/tree/Translation-hy |
+    | haowang101779990|Translation-wh|https://github.com/PaddlePaddle/FluidDoc/tree/Translation-wh |
 
     **提交pr时，请务必提交到自己的分支，谢谢！**
     
