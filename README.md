@@ -20,7 +20,7 @@
 
   - 明确格式要求
   
-  请使用标准rst语法进行翻译，这里提供了一个例子： [array_read](https://github.com/shanyi15/API-translation/blob/master/array_read_cn.rst)
+  请使用标准rst语法进行翻译，这里提供了一个例子： [array_read](https://github.com/shanyi15/API-translation/blob/master/layers_cn.rst)
 
   上述rst文档在官网渲染后显示效果如下：
   ![](img/preview_for_array_read.png)
