@@ -122,7 +122,11 @@
   git push origin yourbranch:newbranch
   ```
   7. 上传成功后进入[FluidDoc](https://github.com/PaddlePaddle/FluidDoc),可以在首页看到一个提交PR的提醒：
-  <img src="https://images-cdn.shimo.im/qGaQdaUskAAfGshX/image.png!thumbnail">
+  <img src="https://images-cdn.shimo.im/HmKvCeBPi0EYLLuX/%E5%9B%BE%E7%89%87.png!thumbnail">
+  
+  点击compare&pull request，将进入下图所示页面：
+  
+  <img src="https://images-cdn.shimo.im/aZ7NoCeCX1QRAwMZ/%E5%9B%BE%E7%89%87.png!thumbnail">
   
   **请确认提交到自己的分支上！！！**
   
