@@ -29,6 +29,16 @@
   
   在翻译时，如发现英文版API reference不易理解，请参考[python源代码](https://github.com/PaddlePaddle/Paddle/tree/release/1.0.0/python/paddle/fluid) 来帮助理解
   
+    **注意**
+   
+   为了保证从其他文档可以正确跳转到某个API Reference（效果请参考[这里](http://paddlepaddle.org/documentation/api/zh/1.1/api_guides/low_level/layers/detection.html)从API Guide文档到API Reference文档的跳转），在每一个api中文翻译前，请首先为此api添加关键字。
+   
+   关键字的格式为 `.. _cn_api_fluid_layers_array_read:`，写法为：
+   
+   “cn”+“api”+“api的路径”，请注意英文名前有一个 `_` 结尾有一个 `:`，这里以layers中的array_read为例：
+   
+   ![](img/ref.png) 
+  
   - 需要翻译的API
   
     请根据拿到的Excel中所列的API名称，在[API Reference](http://paddlepaddle.org/documentation/api/zh/1.0/fluid.html)中查看
@@ -40,12 +50,6 @@
    中文翻译稿的源文件也需要按照类似的方式命名，例如中文版layers，其在Fluiddoc/doc/fluid/api下的文件名应为：`layers_cn.rst`
    
    请按照大类（请参考Fluiddoc/doc/fluid/api）下面英文版的分类方式，来创建对应的中文版文档
-   
-   **注意**
-   
-   在每一个api中文翻译前，务必先在顶端为此api添加关键字，格式为 `.. _cn_api_fluid_layers_array_read:`，英文名前有一个 `_` 结尾有一个 `:`，如：
-   
-   ![](img/ref.png) 
   
   - 如何提交
   
