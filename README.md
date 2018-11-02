@@ -35,7 +35,11 @@
     
   - 提交位置
   
-   在官网文档中，左侧导航栏显示`fluid`,`fluid.layers`等，每一行代表一种分类，对应[Github 源文件](https://github.com/PaddlePaddle/FluidDoc/tree/release/1.0/doc/fluid/api)的一个文件，例如`fluid.layers`对应`layers.rst`
+   在官网英文版文档中，左侧导航栏显示`fluid`,`fluid.layers`等，每一行代表一种分类，对应[Github 源文件](https://github.com/PaddlePaddle/FluidDoc/tree/release/1.0/doc/fluid/api)的一个文件，例如`fluid.layers`对应`layers.rst`
+   
+   中文翻译稿的源文件也需要按照类似的方式命名，例如中文版layers，其在Fluiddoc/doc/fluid/api下的文件名应为：`layers.cn.rst`
+   
+   请按照大类（请参考Fluiddoc/doc/fluid/api）下面英文版的分类方式，来创建对应的中文版文档
     
   - 如何提交
   
