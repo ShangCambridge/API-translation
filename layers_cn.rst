@@ -23,9 +23,9 @@ array_read
 	output = 0.3
 
 
-参数：  
-		- array (Variable|list)：待读取的输入张量（Tensor）
-		- i (Variable|list)：待读取的输入数据索引
+参数:
+	- array (Variable|list)：待读取的输入张量（Tensor）
+	- i (Variable|list)：待读取的输入数据索引
 
 返回：	张量（Tensor）类型的变量，储存事前写入的数据
 
@@ -49,12 +49,14 @@ Switch
 .. py:class:: *class* paddle.fluid.layers.  Switch *(name=None)*
 
 Switch类实现的功能十分类似if-elif-else。它可以在学习率调度器(learning rate scheduler)中调整学习率。
-:: 
+
+::
+ 
 	语义上，
-	 1. switch控制流挨个检查cases
-	 2. 各个case的条件是一个布尔值(boolean)，它是一个标量(scalar)变量
-	 3. 它将执行第一个匹配的case后面的分支，如果没有匹配的case，但若存在一个default case,则会执行default case后面的语句
-	 4. 一旦匹配了一个case,它降会执行这个case所对应的分支，且仅此分支。
+	1. switch控制流挨个检查cases
+	2. 各个case的条件是一个布尔值(boolean)，它是一个标量(scalar)变量
+	3. 它将执行第一个匹配的case后面的分支，如果没有匹配的case，但若存在一个default case,则会执行default case后面的语句
+	4. 一旦匹配了一个case,它降会执行这个case所对应的分支，且仅此分支。
 
 **代码示例**
 
