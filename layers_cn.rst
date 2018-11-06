@@ -4,8 +4,7 @@
 array_read
 >>>>>>>>>>>>
 
-paddle.fluid.layers.array_read(array, i)
-""""""""""""""""""""""""""""""""""""""""""
+.. py:class:: paddle.fluid.layers.array_read(array, i)
 
 此函数用于读取LoD-Tensor类型的数据
 
