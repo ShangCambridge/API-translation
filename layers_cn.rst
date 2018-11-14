@@ -24,8 +24,8 @@ array_read
 
 
 参数:
-	- array (Variable|list)：待读取的输入张量（Tensor）
-	- i (Variable|list)：待读取的输入数据索引
+	- **array** (Variable|list)：待读取的输入张量（Tensor）
+	- **i** (Variable|list)：待读取的输入数据索引
 
 返回：	张量（Tensor）类型的变量，储存事前写入的数据
 
