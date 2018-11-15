@@ -1,0 +1,70 @@
+::
+ 
+  因为github上预览不出来math，是官网渲染出来的，所以要留心下面的格式：
+ 
+  1. 块公式（独占一行的公式）, .. math::要顶头：
+
+      .. math::
+          \\X=ab\\
+      新的文字内容没有缩进
+
+  2. 段内公式如下例，注意前后空格，否则无法正常显示：
+
+      这个等式是 :math:`Y=AB` 为准
+
+
+  3. 公式不确定对不对？
+     
+     有时候长公式不好检查，可以在  https://www.codecogs.com/latex/eqneditor.php 这个网站上输入LateX语句，里面也有特殊符号，点击即可为你添加到语句里面超方便
+     输入框下方会给预览，核对后粘贴到翻译稿里就ok了
+      
+  4. rst列表里面出现公式？
+      
+      参照下面的示例，注意空格~  -后面有一个或两个空格:math:`format`后一个空格：参数介绍
+
+.. _cn_api_fluid_layers_conv2d_transpose:
+
+conv2d_transpose
+>>>>>>>>>>>>>>>>>>>>>>
+
+.. py:class:: paddle.fluid.layers.conv2d_transpose(input, num_filters, output_size=None, filter_size=None, padding=0, stride=1, dilation=1, groups=None, param_attr=None, bias_attr=None, use_cudnn=True, act=None, name=None)
+
+2-D卷积转置层（Convlution2D transpose layer）
+
+该层根据 输入（input）、滤波器（filter）和卷积核膨胀（dilations）、步长（stride）、填充（padding）来计算输出。输入(Input)和输出(Output)为NCHW格式，其中N为batch大小，C为通道数（channel），H为特征高度，W为特征宽度。参数(膨胀、步长、填充)分别都包含两个元素。这两个元素分别表示高度和宽度。欲了解卷积转置层细节，请参考下面的说明和 参考文献_ 。如果参数bias_attr和act不为None，则在卷积的输出中加入偏置，并对最终结果应用相应的激活函数。
+
+.. _参考文献: http://www.matthewzeiler.com/wp-content/uploads/2017/07/cvpr2010.pdf
+
+输入 :math:`X` 和输出 :math:`Out` 函数关系 :math:`X` 有等式如下：
+
+.. math::
+			   
+                        \\Out=\sigma (W*X+b)\\
+
+其中：
+    -  :math:`X` : 输入张量，具有NCHW格式
+
+    -  :math:`W` : 滤波器张量，，具有NCHW格式
+
+    -  :math:`*` : 卷积操作
+
+    -  :math:`b` : 偏置（bias），二维张量，shape为[m,1]
+
+    -  :math:`σ` : 激活函数
+ 
+    -  :math:`Out` : 输出值，Out和X的shape可能不一样
+
+**样例**：
+
+输入：
+
+.. math:: 
+
+    输入张量的shape: （N，C_{in}， H_{in}， W_{in})
+
+    滤波器（filter）shape ：（C_{in}, C_{out}, H_f, W_f) 
+
+输出：
+        
+.. math:: 
+    输出张量的shape：（N，C_{out}, H_{out}, W_{out})
