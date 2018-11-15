@@ -46,7 +46,7 @@ array_read
 Switch
 >>>>>>>>>>>>>>>>>>>>
 
-.. py:class:: class paddle.fluid.layers.Switch (name=None)
+.. py:class:: paddle.fluid.layers.Switch (name=None)
 
 Switch类实现的功能十分类似if-elif-else。它可以在学习率调度器(learning rate scheduler)中调整学习率。
 
